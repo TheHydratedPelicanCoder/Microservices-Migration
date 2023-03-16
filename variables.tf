@@ -1,6 +1,6 @@
 variable "project_id" {
   description = "The project ID of your project"
-  default     = "gke-project-377310"
+  default     = "<project_id>"
 }
 variable "cluster_name" {
   description = "The name for the GKE cluster"
