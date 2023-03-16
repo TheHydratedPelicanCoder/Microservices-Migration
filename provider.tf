@@ -1,7 +1,7 @@
 provider "google" {
-    project     = "gke-project-377310"
-    region      = "us-central1-c"
-    credentials = file("C:/Users/FLEX14/Downloads/cred.json")
+    project     = <your-project-name>
+    region      = <your-region>
+    credentials = file(path/to/your/json/key)
 }
 
 provider "helm" {
